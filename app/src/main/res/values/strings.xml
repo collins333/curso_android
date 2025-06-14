@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">CursoAndroid</string>
+
+    <!--    Menu-->
+    <string name="saludo">App_Saludo</string>
+    <string name="frame">App_FrameLayout</string>
+    <string name="linear">App_LinearLayout</string>
+    <string name="constraint">App_ConstraintLayout</string>
+    <string name="imc">App_Imc</string>
+    <string name="tareas">App_Tareas</string>
+    <string name="recyclerView">App_RecyclerView</string>
+    <string name="heroes">App_Heroes</string>
+    <string name="configuraciones">App_Configuraciones</string>
+
+    <!--    IMC_app-->
+    <string name="male">Hombre</string>
+    <string name="female">Mujer</string>
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="age">Edad</string>
+    <string name="calculate">Calcular</string>
+    <string name="result">Tu resultado</string>
+    <string name="recalculate">Recalcular</string>
+    <string name="error">Error</string>
+    <string name="bajo_peso">Bajo peso</string>
+    <string name="descrip_bajo_peso">Estás por debajo de lo óptimo para tu peso y altura.</string>
+    <string name="normal_peso">Normal</string>
+    <string name="descrip_normal_peso">Estás en lo óptimo para tu peso y altura.</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="descrip_sobrepeso">Estás por encima de lo óptimo para tu peso y altura.</string>
+    <string name="obeso">Obesidad</string>
+    <string name="descrip_obeso">Estás MUY por encima de lo óptimo para tu peso y altura.</string>
+
+    <!--    Tareas_app-->
+    <string name="tareas_titulo">Bienvenido, Collins</string>
+    <string name="tareas_categorias">Categorías:</string>
+    <string name="tareas_tasks">Tareas:</string>
+    <string name="tareas_hint">Añade la tarea</string>
+    <string name="tareas_business">Negocios</string>
+    <string name="tareas_personal">Personal</string>
+    <string name="tareas_other">Otros</string>
+    <string name="tareas_btn_crearTareas">Crear Tareas</string>
+
+    <!--    Configuraciones_app-->
+    <string name="configuraciones_titulo_modo_oscuro">Modo oscuro</string>
+    <string name="configuraciones_descripcion_modo_oscuro">Activa el modo oscuro para un cambio de visualización</string>
+    <string name="configuraciones_titulo_bluetooth">Bluetooth</string>
+    <string name="configuraciones_descripcion_bluetooth">Conecta periféricos sin cable</string>
+    <string name="configuraciones_titulo_vibraciones">Vibración</string>
+    <string name="configuraciones_descripcion_vibraciones">Vibrar en las llamadas</string>
+    <string name="configuraciones_titulo_volumen">Volumen</string>
+    <string name="configuraciones_hint_volumen">Slider de volumen</string>
+    <string name="configuraciones_descripcion_volumen">Sirve para cambiar el volumen</string>
+    
+    <!--    Horoscopo_App -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+        <!-- bottom_menu-->
+    <string name="horoscopo_horoscopo">Horóscopo</string>
+    <string name="horoscopo_suerte">Suerte</string>
+    <string name="horoscopo_palma">Quiromancia</string>
+
+</resources>

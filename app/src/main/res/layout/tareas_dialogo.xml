@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@color/tareas_background_tareas_app"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etTareas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="@string/tareas_hint"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <RadioGroup
+        android:id="@+id/rgCategorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbNegocios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/tareas_business_category"
+            android:checked="true"
+            android:text="@string/tareas_business"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rbPersonal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/tareas_personal_category"
+            android:text="@string/tareas_personal"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rbOtros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/tareas_other_category"
+            android:text="@string/tareas_other"
+            android:textColor="@color/white" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCrearTareas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tareas_btn_crearTareas"
+        android:backgroundTint="@color/tareas_accent"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

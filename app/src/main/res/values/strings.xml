@@ -53,6 +53,7 @@
     <string name="configuraciones_descripcion_volumen">Sirve para cambiar el volumen</string>
     
     <!--    Horoscopo_App -->
+    <string name="horoscopo_nombre">HoróscopoApp</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
         <!-- bottom_menu-->
     <string name="horoscopo_horoscopo">Horóscopo</string>

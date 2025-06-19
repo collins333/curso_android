@@ -7,8 +7,10 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.collins.cursoandroid.R
 import com.collins.cursoandroid.databinding.ActivityHoroscopoBinding
+import dagger.hilt.android.AndroidEntryPoint
 import java.util.zip.Inflater
 
+@AndroidEntryPoint
 class HoroscopoActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityHoroscopoBinding

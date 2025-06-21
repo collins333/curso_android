@@ -1,10 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    //alias(libs.ksp)
-    //id("com.google.devtools.ksp")
-    id("kotlin-kapt")
-    id("dagger.hilt.android.plugin")
 }
 
 android {
@@ -42,19 +38,14 @@ android {
         jvmTarget = "11"
     }
 
-//    viewBinding {
-//        enable = true
-//    }
-
-    buildFeatures {
+buildFeatures {
         viewBinding = true
     }
 
 }
 
 dependencies {
-    val hilt_version: String = "2.44"
-
+    
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -78,13 +69,5 @@ dependencies {
 
     //DataStore
     implementation(libs.androidx.datastore.preferences)
-
-    //NavComponent
-    implementation(libs.androidx.navigation.fragment.ktx)
-    implementation(libs.androidx.navigation.ui.ktx)
-
-    //DaggerHilt
-    implementation(libs.hilt.android)
-    kapt(libs.hilt.android.compiler)
 }
 

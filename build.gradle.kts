@@ -2,14 +2,8 @@
 plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.android) apply false
-    //alias(libs.ksp) apply false
-    //id("com.google.devtools.ksp") version "1.9.21-1.0.15" apply false
 }
 
 buildscript {
-    val hilt_version: String = "2.44"
 
-    dependencies {
-        classpath("com.google.dagger:hilt-android-gradle-plugin:$hilt_version")
-    }
 }

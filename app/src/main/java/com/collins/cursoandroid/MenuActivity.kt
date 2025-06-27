@@ -9,7 +9,6 @@ import com.collins.cursoandroid.ejerciciosLayout.ConstraintLayoutActivity
 import com.collins.cursoandroid.ejerciciosLayout.FrameLayoutActivity
 import com.collins.cursoandroid.ejerciciosLayout.LinearLayoutActivity
 import com.collins.cursoandroid.heroes.ListaHeroesActivity
-import com.collins.cursoandroid.horoscopo.ui.home.HoroscopoActivity
 import com.collins.cursoandroid.imcApp.imcCalculadorActivity
 import com.collins.cursoandroid.primeraApp.primeraAppActivity
 import com.collins.cursoandroid.recyclerView.EjemploRecyclerViewActivity
@@ -42,7 +41,6 @@ class MenuActivity : AppCompatActivity() {
         binding.btnHeroes.setOnClickListener { navegarToHeroes() }
         binding.btnRecyclerView.setOnClickListener { navegarToRecyclerView() }
         binding.btnConfiguraciones.setOnClickListener { navegarToConfiguraciones() }
-        binding.btnHoroscopos.setOnClickListener { navegarToHoroscopos() }
     }
 
     private fun navegarToConfiguraciones() {
@@ -87,11 +85,6 @@ class MenuActivity : AppCompatActivity() {
 
     private fun navegarToConstraint() {
         val intent = Intent(this, ConstraintLayoutActivity::class.java)
-        startActivity(intent)
-    }
-
-    private fun navegarToHoroscopos() {
-        val intent = Intent(this, HoroscopoActivity::class.java)
         startActivity(intent)
     }
 

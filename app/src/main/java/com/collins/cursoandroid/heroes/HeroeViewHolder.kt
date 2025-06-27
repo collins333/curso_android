@@ -13,8 +13,8 @@ class HeroeViewHolder(view: View): RecyclerView.ViewHolder(view) {
 
     fun bind(itemRespuestaHeroes: ItemRespuestaHeroes, itemSeleccionado: (String) -> Unit) {
         binding.tvHeroeNombre.text = itemRespuestaHeroes.heroeNombre
-        //Glide.with(binding.ivHeroe.context).load(itemRespuestaHeroes.heroeImagen.url).into(binding.ivHeroe)
-        Picasso.with(binding.ivHeroe.context).load(itemRespuestaHeroes.heroeImagen.url).into(binding.ivHeroe)
+        Glide.with(binding.ivHeroe.context).load(itemRespuestaHeroes.heroeImagen.url).into(binding.ivHeroe)
+        //Picasso.with(binding.ivHeroe.context).load(itemRespuestaHeroes.heroeImagen.url).into(binding.ivHeroe)
         binding.root.setOnClickListener { itemSeleccionado(itemRespuestaHeroes.heroeId) }
     }
 }

@@ -51,27 +51,5 @@
     <string name="configuraciones_titulo_volumen">Volumen</string>
     <string name="configuraciones_hint_volumen">Slider de volumen</string>
     <string name="configuraciones_descripcion_volumen">Sirve para cambiar el volumen</string>
-    
-    <!--    Horoscopo_App -->
-    <string name="horoscopo_nombre">HoróscopoApp</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-        <!-- bottom_menu-->
-    <string name="horoscopo_horoscopo">Horóscopo</string>
-    <string name="horoscopo_suerte">Suerte</string>
-    <string name="horoscopo_palma">Quiromancia</string>
-        <!-- horoscopo-->
-    <string name="horoscopo_aries">Aries</string>
-    <string name="horoscopo_tauro">Tauro</string>
-    <string name="horoscopo_geminis">Géminis</string>
-    <string name="horoscopo_cancer">Cáncer</string>
-    <string name="horoscopo_leo">Leo</string>
-    <string name="horoscopo_virgo">Virgo</string>
-    <string name="horoscopo_libra">Libra</string>
-    <string name="horoscopo_escorpio">Escorpio</string>
-    <string name="horoscopo_sagitario">Sagitario</string>
-    <string name="horoscopo_capricornio">Capricornio</string>
-    <string name="horoscopo_acuario">Acuario</string>
-    <string name="horoscopo_piscis">Piscis</string>
-
 
 </resources>

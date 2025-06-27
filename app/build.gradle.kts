@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-}
+ }
 
 android {
     namespace = "com.collins.cursoandroid"
@@ -38,14 +38,18 @@ android {
         jvmTarget = "11"
     }
 
-buildFeatures {
+//    viewBinding {
+//        enable = true
+//    }
+
+    buildFeatures {
         viewBinding = true
     }
 
 }
 
 dependencies {
-    
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -69,5 +73,6 @@ dependencies {
 
     //DataStore
     implementation(libs.androidx.datastore.preferences)
+
 }
 

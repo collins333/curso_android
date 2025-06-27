@@ -50,8 +50,8 @@ class DetallesHeroeActivity : AppCompatActivity() {
     }
 
     private fun crearUI(heroe: RespuestaDetalles) {
-        //Glide.with(binding.ivHeroe.context).load(heroe.imagen.url).into(binding.ivHeroe)
-        Picasso.with(binding.ivHeroe.context).load(heroe.imagen.url).into(binding.ivHeroe)
+        Glide.with(binding.ivHeroe.context).load(heroe.imagen.url).into(binding.ivHeroe)
+        //Picasso.with(binding.ivHeroe.context).load(heroe.imagen.url).into(binding.ivHeroe)
         binding.tvNombre.text = heroe.nombre
         binding.tvNombreReal.text = heroe.biografia.nombreReal
         binding.tvEditorial.text = heroe.biografia.editorial

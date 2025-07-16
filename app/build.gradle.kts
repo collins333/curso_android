@@ -1,7 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
- }
+
+}
 
 android {
     namespace = "com.collins.cursoandroid"
@@ -66,8 +67,7 @@ dependencies {
 
     //Glide
     implementation(libs.glide)
-    //ksp(libs.ksp)
-
+    
     //Picasso
     implementation(libs.picasso)
 

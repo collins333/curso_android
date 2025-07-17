@@ -13,9 +13,6 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="imcCalculadorActivity (5)">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
       <SelectionState runConfigName="HoroscopoActivity">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
